@@ -1,0 +1,113 @@
+/* public style */
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+.clr{
+    clear:both;
+}
+.navbar{
+    background-color: gray;
+    display: flex;
+} 
+.navbar .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+
+    /* background-color: blue; */
+    padding-top: 10px;
+    display: flex;
+    flex-direction:row;
+
+}
+ 
+
+
+.portfolio{
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.part1{
+    display: flex;
+    justify-content: center;  
+}
+.part2{
+    display: flex;
+    justify-content: center;  
+}
+.logo img{
+ 
+    width:50%;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+
+}
+
+.navbar .list{
+
+    /* background-color: red; */
+    
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+ 
+}
+
+.list ul{
+    list-style-type: none;
+    display:flex;
+ 
+    
+}
+.list ul a{
+
+    text-decoration-line: none;
+}
+.container{
+    width: 80%;
+    /* background-color: green; */
+    margin:auto;
+    
+}
+.list ul li{
+float:left;
+}
+.list a{
+    color: white;
+    margin-right:16px;
+    text-transform: uppercase;
+    padding-top: 16px;
+}
+
+
+.portfolio-item{
+    width: 33.33%;
+    padding: 10px;
+}
+.portfolio img{
+    display: inline-flex;
+ flex-direction: row;
+ margin-right: 10px;
+width:100%;
+
+}
+.portfolio h2{
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.portfolio p{
+    margin-top: 10px;
+   font-style: italic;
+   color: gray;
+}
+.portfolio-item h3,p{
+    margin-bottom: 10px;
+}
